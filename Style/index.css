@@ -9,6 +9,8 @@ body{
     background-color: rgb(44, 44, 44);
 }
 
+/* Inicio do header */
+
 header{
     display: flex;
     align-items: center;
@@ -75,6 +77,10 @@ i{
     margin-left: 1.5rem;
 }
 
+/* Fim do Header */
+
+
+/* Inicio Filme destaque */
 
 #filme-destaque{
     width: 100vw;
@@ -110,8 +116,6 @@ i{
     width: 100%;
 }
 
-
-
 .title{
     font-size: 3rem;
     color: white;
@@ -122,3 +126,5 @@ i{
     gap: 2rem;
     margin: 2rem 0;
 }
+
+/* Fim Filme Destaque */
