@@ -1,4 +1,54 @@
+/* Inicio Filme Modelo */
 
+#filme-destaque{
+    width: 100vw;
+    color: rgb(165, 165, 165);
+    background-image: url('../Imagens/inicio-filmeDestaque.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#container-resumo{
+    height: 18rem;
+    background: linear-gradient(to right, #000000, #0000003f);
+}
+
+.filme-resumo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.escolha{
+    margin-bottom: 1rem;
+}
+
+.escolha > i {
+    margin-right: 0.5rem;
+}
+
+#imageDestaque{
+    width: 100%;
+}
+
+.title{
+    font-size: 3rem;
+    color: white;
+}
+
+.dados-resumo{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Fim Filme Modelo */
+
+
+/* Inicio Sessão comentários*/
 
 section.comentarios{
     
@@ -13,3 +63,4 @@ div.comentario{
 input{
 
 }
+/* Fim Sessão comentários*/
