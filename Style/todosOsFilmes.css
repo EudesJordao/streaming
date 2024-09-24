@@ -85,12 +85,14 @@ h1{
     font-size: 50px;
     color: white;
     font-weight: bolder;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 .todosFilmes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    max-width: 1300px;
+    max-width: 95%;
     margin:20px auto ;
 }
 
@@ -98,4 +100,30 @@ h1{
     width: 100%;
     display: block;
 }
+
+span{
+    font-size:17px;
+    color: darkgrey;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 10px;
+}
+h2{
+    font-size: 25px;
+    color: darkgrey;
+    margin-top: 10px;
+}
 /* Fim Todos os Filmes */
+
+/* Início Footer */
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    height: 2rem;
+}
+/* Fim Footer */
