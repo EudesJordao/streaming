@@ -91,7 +91,7 @@ i{
 }
 
 #container-resumo{
-    height: 18rem;
+    height: 30rem;
     background: linear-gradient(to right, #000000, #0000003f);
 }
 
@@ -128,3 +128,59 @@ i{
 }
 
 /* Fim Filme Destaque */
+
+/* Inicio Top 3 */
+
+#filme-top3{
+    height: 30rem;
+    background-color: #000000;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+#title-top{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#container-top3{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 0 2rem;
+}
+
+.conteudo-top{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.top{   
+    margin:-3.3rem;
+    font-size: 14rem;
+}
+
+.img-top{
+    width: 20rem;
+}
+
+.dados-top{
+    width: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1.2rem;
+}
+
+.nome-top{
+    grid-column: 1 / 3;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* Fim Top 3 */
