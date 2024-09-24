@@ -83,7 +83,7 @@ i{
 /* Inicio Filme destaque */
 
 #filme-destaque{
-    width: 100vw;
+    max-width: 100vw;
     color: rgb(165, 165, 165);
     background-image: url('../Imagens/inicio-filmeDestaque.jpg');
     background-size: cover;
@@ -133,7 +133,7 @@ i{
 
 #filme-top3{
     height: 30rem;
-    background-color: #000000;
+    background-color: rgb(20, 20, 20);
     color: white;
     padding-left: 1rem;
     padding-top: 2rem;
