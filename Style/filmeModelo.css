@@ -64,3 +64,12 @@ input{
 
 }
 /* Fim Sessão comentários*/
+/* Início Footer */
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    height: 2rem;
+}
+/* Fim Footer */
