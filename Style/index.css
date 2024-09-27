@@ -125,6 +125,12 @@ i{
     display: flex;
     gap: 2rem;
     margin: 2rem 0;
+    
+}
+
+.filme-modelo{
+    text-decoration: none;
+    color: white;
 }
 
 /* Fim Filme Destaque */
@@ -245,6 +251,7 @@ i{
 
 #footer{
     font-weight: 300;
+    padding-top: 1rem;
 }
 
 #container-footer{
