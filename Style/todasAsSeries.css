@@ -99,7 +99,7 @@ h1{
 .a{
     width: 80%;
     height: 78%;
-
+    z-index: 999;
     display: block;
 }
 
@@ -131,3 +131,5 @@ footer{
     height: 2rem;
 }
 /* Fim Footer */
+
+
