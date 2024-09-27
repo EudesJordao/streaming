@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+/* Inicio do header */
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    height: 5rem;
+}
+
+nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    
+    width: 9rem;
+    margin-right: 2rem;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.icon{
+    width: 1rem;
+}
+
+.li-nav{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#itens-nav-direita{
+    width: 100%;
+    margin-right: 5rem;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+input{
+    background-color: black;
+    border: 1px solid white;
+    height: 2rem;
+    padding-left: 5px;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+
+#foto-perfil{
+    width: 2.5rem;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+}
+
+/* Fim do Header */
+
+
+/* Inicio Filme destaque */
+
+
+#serie-destaque{
+    max-width: 100vw;
+    color: rgb(165, 165, 165);
+    background-image: url('../Imagens/breaking\ bad\ destaque.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#container-resumo{
+    height: 30rem;
+    background: linear-gradient(to right, #000000, #0000003f);
+}
+
+.serie-resumo{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.escolha{
+    margin-bottom: 1rem;
+}
+
+.escolha > i {
+    margin-right: 0.5rem;
+}
+
+#imageDestaque{
+    width: 100%;
+}
+
+.title{
+    font-size: 3rem;
+    color: white;
+}
+
+.dados-resumo{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Fim Filme Destaque */
+
+/* Inicio Top 3 */
+
+#serie-top3{
+    height: 30rem;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.title-padrao{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#container-top3{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 0 2rem;
+}
+
+.conteudo-top{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.top{   
+    margin:-3.3rem;
+    font-size: 14rem;
+}
+
+.img-padrao{
+    width: 100px;
+    height: 200px;
+    width: 20rem;
+    object-fit: cover;
+}
+
+.dados-padrao{
+    width: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1.2rem;
+    color: rgb(165, 165, 165);
+}
+
+.nome-padrao{
+    grid-column: 1 / 3;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* Fim Top 3 */
+
+/* Inicio Filmes Recentes */
+
+#serie-recente{
+    height: 45rem;
+    max-width: 100vw;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.title-padrao{
+    margin-bottom: 3rem;
+}
+
+.container-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.container-padrao{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    justify-content: center;
+    align-content: center;
+    padding: 0 1rem;
+}
+
+/* Fim Filmes Recentes */
+
+/* Inicio Serie Recentes */
+#serie-recente{
+    height: 45rem;
+    max-width: 100vw;
+    background-color: rgb(20, 20, 20);;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.link-filmes{
+    text-decoration: none;
+}
+/* Fim Serie Recentes */
