@@ -234,3 +234,27 @@ i{
     text-decoration: none;
 }
 /* Fim Serie Recentes */
+
+/* Inico footer */
+#footer-container{
+    background-color:  rgb(65, 65, 65);
+    height: 8rem;
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    font-weight: 300;
+}
+
+#container-footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#copy{
+    font-size: 0.7rem;
+}
+/* Fim footer */
