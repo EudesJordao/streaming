@@ -92,8 +92,16 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    max-width: 95%;
     margin:20px auto;
+    max-width: 78%;
+
+}
+
+#padronizar{
+    width: 100px;
+    height: 400px;
+    width: 20rem;
+    object-fit: cover;
 }
 
 .a{
