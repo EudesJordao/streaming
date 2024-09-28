@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./filmeModelo.html">
+    <title>Breaking bad destaque</title>
     <link rel="stylesheet" href="../Style/serieModelo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Serie modelo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-
 <body>
     <header>
         <nav>
@@ -18,7 +18,7 @@
                     <a href="./index.html" class="link">Início</a>
                 </li>
                 <li class="li-nav">
-                    <a href="./todosOsFilmes.html" class="link">Filmes</a>
+                    <a href="./todosOsFilmes.html"  class="link">Filmes</a>
                 </li>
                 <li class="li-nav">
                     <a href="./todasAsSeries.html" class="link">Séries</a>
@@ -26,230 +26,57 @@
             </ul>
             <div id="itens-nav-direita">
                 <i class="fas fa-search"></i>
-                <input type="text" placeholder="Título e gênero">
+                <input type="text" placeholder="Título, gente e gênero" class="input1">
                 <img src="../Imagens/inicio-perfil.jpg" alt="perfil" id="foto-perfil">
             </div>
         </nav>
     </header>
-    <main>
-        <section id="serie-destaque">
-            <div id="container-resumo">
-                <div class="serie-resumo">
-                    <div class="escolha">
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <h2 class="title">Breaking bad</h2>
-                    <div class="dados-resumo">
-                        <p class="ano"><i class="fas fa-calendar-alt"></i>
-                            2008</p>
-                        <p class="temporada"> <i class="fas fa-clock"></i> 5 temporadas</p>
-                        <div class="avaliacao">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="sinopse">Breaking Bad é uma série de televisão americana que conta a história de Walter White, um professor de química que começa a fabricar metanfetamina para garantir o futuro da sua família após ser diagnosticado com câncer termina</p>
+    <section id="serie-destaque">
+        <div id="container-resumo">
+            <div class="serie-resumo">
+                <div class="escolha">
+                    <i class="far fa-circle"></i>
+                    <i class="far fa-circle"></i>
+                    <i class="fas fa-circle"></i>
                 </div>
+                <h2 class="title"><a href="https://youtu.be/2-W6_6gJda0?si=CG21eLLqAbcid7N_">Breaking bad</a>
+                    </h2>
+                <div class="dados-resumo">
+                    <p class="ano"><i class="fas fa-calendar-alt"></i>
+                        2008 - 2013</p>
+                    <p class="temporadas"> <i class="fas fa-clock"></i> 5 T</p>
+                   <div class="avaliacao">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                   </div>
+                </div>
+                <p class="sinopse">Breaking Bad é uma série de televisão americana que conta a história de Walter White, um professor de química que começa a fabricar metanfetamina para garantir o futuro da sua família após ser diagnosticado com câncer termina</p>
             </div>
-        </section>
-
-        <section id="serie-top3">
-            <h2 class="title-padrao">Top 3 hoje</h2>
-            <div id="container-top3">
-                <div class="card">
-                    <div class="conteudo-top">
-                        <span class="top um">1</span>
-                        <img src="../Imagens/black mirror.jpg" alt="Black mirror" class="img-padrao">
-                    </div>
-                    <div class="dados-padrao">
-                        <p class="nome-padrao">Black mirror/p>
-                        <p class="ano-padrao">2011</p>
-                        <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  6 T</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="conteudo-top">
-                        <span class="top ">2</span>
-                        <img src="../Imagens/the handmais's tale destaque.jpg" alt="The handmais's tale" class="img-padrao ">
-                    </div>
-                    <div class="dados-padrao">
-                        <p class="nome-padrao">The handmais's tale</p>
-                        <p class="ano-padrao">2017</p>
-                        <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  5 T</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="conteudo-top">
-                        <span class="top ">3</span>
-                        <img src="../Imagens/sandman.jpg" alt="Sandman" class="img-padrao">
-                    </div>
-                    <div class="dados-padrao">
-                        <p class="nome-padrao">Sandman</p>
-                        <p class="ano-padrao">2022</p>
-                        <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  1 T</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="serie-recente">
-            <h2 class="title-padrao">Séries recentes</h2>
-            <div class="container-center">
-                <div class="container-padrao">
-
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/fallout.jpg" alt="Fallout" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Fallout</p>
-                                <p class="ano-padrao">2024</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  1 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/fleabag.jpg" alt="Fleabag" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Fleabag</p>
-                                <p class="ano-padrao">2016</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  2 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/Heartstopper.jpg" alt="Heartstopper" class="img-padrao ">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Heartstopper</p>
-                                <p class="ano-padrao">2022</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  3 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/Lupin_logo_serieTV.jpg" alt="Lupin" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Lupin</p>
-                                <p class="ano-padrao">2021</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  3 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/Outlander.png" alt="Outlander" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Outlander</p>
-                                <p class="ano-padrao">2014</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  7 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/percy jackson.jpg" alt="Percy jackson" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Percy jackson</p>
-                                <p class="ano-padrao">2023</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  1 T</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="serie-recente">
-            <h2 class="title-padrao">Séries recentes</h2>
-            <div class="container-center">
-                <div class="container-padrao">
-
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/daisy jones and the six.jpg" alt="Daisy jones and the six" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Daisy jones and the six</p>
-                                <p class="ano-padrao">2023</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  1 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/succession.webp" alt="Succession" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Succession</p>
-                                <p class="ano-padrao">2018</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  4 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/supernatural.jpg" alt="Supernatural" class="img-padrao ">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">Supernatural</p>
-                                <p class="ano-padrao">2005</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  15 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/the boys.jpg" alt="The boys" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">The boys</p>
-                                <p class="ano-padrao">2019</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  4 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/the office.jpg" alt="The office" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">The office</p>
-                                <p class="ano-padrao">2005</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  9 T</p>
-                            </div>
-                        </div>
-                    </a>
-    
-                    <a href="./todasAsSeries.html" class="link-filmes">
-                        <div class="card-filmes">
-                            <img src="../Imagens/the umbrella academy.jpg" alt="The umbrella academy" class="img-padrao">
-                            <div class="dados-padrao">
-                                <p class="nome-padrao">The umbrella academy</p>
-                                <p class="ano-padrao">2019</p>
-                                <p class="tempo-padrao"><span><i class="fas fa-clock"></i></span>  4 T</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <section class="comentarios">
+        <div class="comentario">
+            <h1 class="h1">Comentários</h1>
+            <span class="naocoment">Não há comentários no momento.</span>
+        </div>
+        <input type="Text" placeholder="Escreva um comentário" class="input2">
+        <div class="Comentar">
+            <span class="material-symbols-outlined">
+                add_comment
+            </span>
+            <p>Comentar</p>
+        </div>
+    </section>
     <footer>
         <section id="footer-container">
-
+            <span class="material-symbols-outlined">
+                copyright
+            </span>
+            <span>Netflix  -  Todos os direitos reservados para a Empresa.</span>
         </section>
     </footer>
 </body>
-
 </html>
