@@ -1,12 +1,33 @@
+#serie-destaque{
+    width: 100vw;
+    color: rgb(165, 165, 165);
+    background-image: url('../Imagens/breaking\ bad\ destaque.jpg');
+    background-position: top;
+    background-size: cover;
+
+
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    overflow-x: hidden;  /*Adicionado para remover a rolagem horizontal */
+}
+
+.serie-resumo{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-color: rgb(44, 44, 44);
 }
 
 /* Inicio do header */
@@ -58,11 +79,14 @@ nav{
     align-items: center;
 }
 
+.sinopse{
+ width: 80%;
+}
 
-input{
+.input1{
     background-color: black;
     border: 1px solid white;
-    height: 2rem;
+    height: 30px;
     padding-left: 5px;
     color: white;
 }
@@ -129,113 +153,52 @@ i{
     margin: 2rem 0;
 }
 
+
 /* Fim Filme Destaque */
 
-/* Inicio Top 3 */
+/*início comentários */
 
-#serie-top3{
-    height: 30rem;
-    background-color: rgb(20, 20, 20);
+.h1{
+    font-size: 30px;
     color: white;
-    padding-left: 1rem;
-    padding-top: 2rem;
 }
 
-.title-padrao{
-    font-size: 2.5rem;
-    font-weight: 500;
+.comentario{
+    display: block;
+    margin: 20px;
 }
 
-#container-top3{
-    height: 70%;
+.naocoment{
+    margin-left: 75%;
+    color: rgba(128, 128, 128, 0.562);;
+}
+.input2{
+    width: 500px;
+    height: 100px;
+    border-radius: 5%;
+    border-color: black;
+    margin-left: 20px;
+    background-color: black;
+    box-shadow: none;
+    padding-left: 15px;
+}
+
+.Comentar{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card{
-    margin: 0 2rem;
-}
-
-.conteudo-top{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    
-}
-
-.top{   
-    margin:-3.3rem;
-    font-size: 14rem;
-}
-
-.img-padrao{
-    width: 100px;
-    height: 200px;
-    width: 20rem;
-    object-fit: cover;
-}
-
-.dados-padrao{
-    width: 12rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 1.2rem;
-    color: rgb(165, 165, 165);
-}
-
-.nome-padrao{
-    grid-column: 1 / 3;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-/* Fim Top 3 */
-
-/* Inicio Filmes Recentes */
-
-#serie-recente{
-    height: 45rem;
-    max-width: 100vw;
-    background-color: rgb(12, 12, 12);
+    margin-left: 20px;
+    margin-top: 15px;
     color: white;
-    padding-left: 1rem;
-    padding-top: 2rem;
 }
 
-.title-padrao{
-    margin-bottom: 3rem;
+/* Fim comentários */
+
+/* Início Footer */
+footer{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.562);
+    height: 2rem;
+    margin-top: 30px;
 }
-
-.container-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-}
-
-.container-padrao{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
-    justify-content: center;
-    align-content: center;
-    padding: 0 1rem;
-}
-
-/* Fim Filmes Recentes */
-
-/* Inicio Serie Recentes */
-#serie-recente{
-    height: 45rem;
-    max-width: 100vw;
-    background-color: rgb(20, 20, 20);;
-    color: white;
-    padding-left: 1rem;
-    padding-top: 2rem;
-}
-
-.link-filmes{
-    text-decoration: none;
-}
-/* Fim Serie Recentes */
+/* Fim Footer */
