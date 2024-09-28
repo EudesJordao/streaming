@@ -116,6 +116,7 @@ h2{
     color: darkgrey;
     margin-top: 10px;
 }
+
 /* Fim Todos os Filmes */
 
 /* Início Footer */
@@ -123,7 +124,6 @@ h2{
 footer{
     display: block;
     text-align: center;
-    background-color: rgb(65, 65, 65);
     height: 2rem;
 }
 /* Fim Footer */
